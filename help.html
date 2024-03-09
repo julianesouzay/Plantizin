@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plantizin Garden</title>
+  <!-- Link para o Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Estilos personalizados -->
+  <style>
+    .centro {
+      text-align: center;
+    }
+    .imagem {
+      margin-right: 10px; /* Define a margem entre as imagens */
+    }
+  </style>
+</head>
+<body>
+  <div class="centro">
+    <h1>Plantizin Garden</h1>
+    <p>Desperte a beleza da natureza em seu lar!</p>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Pagina Inicial</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Produtos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sobre Nós</a>
+            </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contato</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <h1>Recomendado por quem planta!</h1>
+    <p>As mais vendidas</p>
+  </div>
+
+   <!-- Seção de Produtos -->
+   <div class="container mt-4">
+        <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="download.jpg" class="card-img-top" alt="Produto 1">
+          <div class="card-body">
+            <h5 class="card-title">Aglaonema Pink pote 14 cm</h5>
+            <p class="card-text">Uma planta ornamental nativa do sudeste asiático. É conhecida por suas folhas exuberantes e vibrantes, que possuem uma combinação única de tons verdes e manchas rosadas.</p>
+            <button onclick="comprar()">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="QDZ4WLNJQJNINLCWC3TF6SVNJY.avif" class="card-img-top" alt="Produto 2">
+          <div class="card-body">
+            <h5 class="card-title">Espada de São Jorge pote 12 cm</h5>
+            <p class="card-text">Originária da África tropical e Ásia. Ela é conhecida por suas folhas longas e espessas, que crescem verticalmente a partir da base da planta, lembrando espadas ou lanças, daí o seu nome popular.</p>
+            <button onclick="comprar()">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="planta_artificial_mini_cacto_mandacaru_23_cm_1083_1_dda08ea6c9ef6285ca403acd1e72f52a_20230324145509.webp" class="card-img-top" alt="Produto 3">
+          <div class="card-body">
+            <h5 class="card-title">Cacto pote 14 cm</h5>
+            <p class="card-text">Os cactos são plantas suculentas conhecidas por suas formas variadas e suas adaptações únicas para sobreviver em ambientes áridos e secos.</p>
+            <button onclick="comprar()">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="download (1).jpg" class="card-img-top" alt="Produto 4">
+          <div class="card-body">
+            <h5 class="card-title">Costela de Adão pote 16 cm</h5>
+            <p class="card-text">Planta tropical conhecida por suas folhas grandes e distintas, que se assemelham à forma de uma costela. Originária da América Central e do Sul.</p>
+            <button onclick="comprar()">Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images.jpg" class="card-img-top" alt="Produto 5">
+          <div class="card-body">
+            <h5 class="card-title">Antúrio pote 12 cm</h5>
+            <p class="card-text">Planta tropical popularmente cultivada por suas flores deslumbrantes e folhagens exuberantes. Originário das florestas tropicais da América Central e do Sul.</p>
+            <button onclick="comprar()">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Script JavaScript -->
+  <script>
+    function comprar() {
+            alert("Obrigado por comprar conosco!");
+            }
+      </script>
+
+  <!-- Rodapé -->
+  <footer class="footer mt-auto py-3 bg-light">
+    <div class="container text-center">
+      <span class="text-muted">© 2024 Plantizin Garden. Todos os direitos reservados.</span>
+    </div>
+  </footer>
+
+  <!-- Link para o Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
